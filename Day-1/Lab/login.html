@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is my first web page for Day 1">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Basma">
+
+  <title>Login</title>
+  <link rel="icon" href="./images/favicon.png">
+
+  <!-- cdn fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: azure
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div>
+    <!-- form header -->
+    <div>
+      <img src="images/login_icon.svg" alt="" />
+      <h4>Welcome back</h4>
+      <p>It's time to catch-up</p>
+    </div>
+    <!-- form -->
+    <form>
+      <label for="name">User Name</label>
+      <input type="text" name="name" placeholder="Enter your name" value="">
+      <br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+      <br>
+      <div>
+        <span>
+          <input type="checkbox" name="rememeber" id="rememeber">
+          <label for="rememeber">Rememeber me</label>
+        </span>
+        <span> Forgot your password? </span>
+      </div>
+
+      <div>
+        <button type="submit">login</button>
+        <a href="register.html">I don't have an account</a>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

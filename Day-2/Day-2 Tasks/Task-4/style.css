@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/wall.png");
+    background-repeat: repeat;
+    background-position: fixed;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #f5f5f5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #ea7134;
+    transform: translateX(-6rem);
+    letter-spacing: -0.08rem;
+}
+
+
+.table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 20px auto;
+    border: 10px outset #c4d5d0;
+    box-shadow: 5px 5px 10px #999;
+    background-color: rgb(241, 236, 236);
+    ;
+    border-collapse: separate;
+    border-spacing: 0.4rem;
+
+}
+
+th,
+td {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) -0.05em -0.05em 0px,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.black {
+    color: #000000;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.green {
+    color: #00ff00;
+}
+
+.blue {
+    color: #0000ff;
+}
+
+.yellow {
+    color: #ffff00;
+}
+
+.magento {
+    color: #ff00ff;
+}
+
+.cyan {
+    color: #00ffff;
+}
+
+.white {
+    color: #000000;
+}
+
+.my-color {
+    color: #d0b000;
+    ;
+}
+
+
+/* .... */
+th {
+    font-size: 1.3rem;
+    background-color: rgb(241, 236, 236);
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+td {
+    border: 1px solid #bdbbbb;
+    padding: 5px;
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+    background-color: rgb(241, 236, 236);
+}
+
+.color {
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.vertical {
+    font-size: 1.4rem;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-weight: 600;
+    background-color: rgb(241, 236, 236);
+    padding: 0;
+    width: 2rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+}

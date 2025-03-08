@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Float</title>
+        <style>
+            div{
+                border: 2px solid black;
+                padding: 10px;
+                margin: 5px;
+                color: white;
+                width: 500px;
+                height: 150px;
+            }
+
+            /* #red{
+                background-color: red;
+            }
+            #blue{
+                background-color: blue;
+                float: right;
+            }
+            #green{
+                background-color: green;
+            } */
+
+            #red{
+                background-color: red;
+                position: absolute;
+                top: 25px;
+                left: 25px;
+                z-index: 1;
+            }
+            #blue{
+                background-color: blue;
+                position: absolute;
+                top: 50px;
+                left: 50px;
+                z-index: 2;
+
+            }
+            #green{
+                background-color: green;
+                position: absolute;
+                top: 75px;
+                left: 75px;
+                z-index: -1;
+            }
+
+            #overflow-div {
+                color: black;
+                width: 300px;
+                height: 75px;
+                overflow: scroll;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- <div id="red">Red</div>
+        <div id="blue">Blue</div>
+        <div id="green">Green</div> -->
+
+        <div id="overflow-div">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut exercitationem praesentium aliquam ad illo! Facilis amet molestiae perspiciatis, necessitatibus ullam saepe, laborum quasi incidunt eum doloribus optio temporibus autem vero.
+            <!-- <p style="width: 300px;">
+            </p> -->
+        </div>
+    </body>
+</html>

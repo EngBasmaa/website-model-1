@@ -1,0 +1,629 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.clearfix {
+  clear: both;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500
+}
+
+
+
+/* ================================== */
+
+
+/* ================= Nabar =========== */
+
+header {
+  background-color: #fff;
+}
+
+header img {
+  float: left;
+  margin: 30px 60px 0px 60px;
+}
+
+header .links {
+  float: right;
+
+}
+
+header ul {
+  list-style: none;
+  margin: 30px 70px 30px;
+  display: inline-block;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 35px;
+}
+
+
+header a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #101A31;
+}
+
+
+
+.visit-us {
+  background-color: #BE9278;
+  padding: 30px 65px;
+}
+
+
+/* ================ hero section ============== */
+
+.hero-section {
+  height: 850px;
+  background: linear-gradient(to right, rgba(16, 26, 48, 0.7) 0%, rgba(16, 26, 48, 0.7) 12%, #101a31 91%, #101a31 100%), url("images/h1_hero.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+}
+
+.hero-content {
+
+  position: absolute;
+  left: 11.5%;
+  color: #fff;
+  bottom: 20%;
+  width: 40%;
+}
+
+.hero-content h1 {
+  font-size: 76px;
+  line-height: 83.6px;
+  font-weight: 600;
+  margin: 20px 0px 30px 0px;
+}
+
+.hero-content p {
+  line-height: 30px;
+  width: 78%;
+}
+
+.hero-content .our-services {
+  background-color: #be9278;
+  padding: 28px 60px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 750px;
+}
+
+
+.hero-img img {
+  height: 100%;
+  width: 660px;
+}
+
+
+/* ===================== main =============== */
+
+main {
+  /* background-color: lightblue; */
+  width: 80%;
+  margin: 0px auto;
+  padding-top: 6rem;
+
+}
+
+.offer {
+  display: inline-block;
+  width: 33%;
+}
+
+.offer-img,
+.service-img {
+  padding: 0px 40px;
+}
+
+.offer img {
+  width: 100%;
+}
+
+.offer-content,
+.service-content {
+  padding: 40px;
+  position: relative;
+
+}
+
+.offer-content span {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #c6a16e;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -17px;
+  top: 25px;
+}
+
+.offer-content h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600
+}
+
+.offer-content p {
+  line-height: 30px;
+  color: #101a31;
+  width: 80%;
+}
+
+
+/* ========= about ============ */
+
+.about {
+  width: 85%;
+  margin: 5rem auto;
+  position: relative;
+  height: 100vh;
+}
+
+.about-img {
+  position: absolute;
+  z-index: 3;
+  top: 15%;
+}
+
+.about-img img {
+  width: 660px;
+  height: 570px;
+}
+
+.about-content {
+  position: absolute;
+  background-color: #f2e1d9;
+  right: 0;
+  height: 100%;
+  width: 70%;
+}
+
+
+
+.about-cap {
+  position: absolute;
+  top: 25%;
+  left: 37%;
+}
+
+.about-cap h2,
+.services-header h2,
+.follow-header h2,
+.testimonials h2 {
+  font-size: 56px;
+  line-height: 67.2px;
+  font-weight: 600;
+  color:
+    #101a31;
+}
+
+.about-cap .first-p {
+  font-size: 18px;
+  line-height: 30.6px;
+  color: #010a44;
+  margin: 25px 0px 20px 0px;
+}
+
+.about-cap .second-p {
+  font-size: 14px;
+  color: #10285d;
+  line-height: 30px
+}
+
+.about-cap .more-about-us {
+  background-color: #ba8d72;
+  padding: 25px 65px;
+  display: inline-block;
+  margin-top: 35px;
+}
+
+
+/* .................... services ................ */
+.services {
+  margin: 5rem 1%;
+  width: 100%;
+}
+
+.services-header h2,
+.follow-header h2,
+.testimonials h2 {
+  text-align: center;
+}
+
+.services-header p,
+.follow-header p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #101A31;
+
+  line-height: 1.7rem;
+  width: 40%;
+  margin: 20px auto;
+}
+
+
+.services .service {
+  display: inline-block;
+  width: 24%;
+  margin: 20px 0;
+}
+
+.services .service h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+
+}
+
+.services .service img {
+  padding: 0
+}
+
+.services .service p {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  color: #101a31;
+  width: 95%;
+}
+
+/* ................ video ................. */
+
+.video {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(images/video-bg.png.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.video .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15rem;
+  height: 15rem;
+  background-color: rgba(186, 141, 114, 0.1);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  background-color: #ba8d72;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 5rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.video a i {
+  display: block;
+  font-size: 1.1rem;
+  line-height: 5rem;
+  text-align: center;
+}
+
+/* .............. testimonials ............... */
+
+.testimonials {
+  height: 50vh;
+  margin: 5rem 0;
+}
+
+.testimonials h2 {
+  margin-bottom: 3rem;
+}
+
+.carousel-container {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  background-image: url("images/quotes-sign.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-slide {
+  min-width: 90%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  line-height: 2.2rem;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  color: #333;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  transform: translateY(50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev-btn {
+  left: 8px;
+}
+
+.next-btn {
+  right: 8px;
+}
+
+.test {
+  width: 100%;
+  position: relative
+}
+
+.test-image {
+  display: inline-block;
+  width: 30%;
+}
+
+.test-content {
+  display: inline-block;
+  width: 60%;
+  line-height: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 8rem;
+  margin: 0 1rem
+}
+
+.test-content:last-child {
+  color: grey
+}
+
+
+/* ............. follow ............ */
+.follow-header {
+  margin-top: 15rem
+}
+
+.follow {
+  height: 70%;
+  width: 100%;
+  padding: 0 auto;
+  margin: 5rem 0;
+}
+
+.follow img {
+  width: 80%;
+}
+
+.follow .block {
+  display: inline-block;
+  margin: 0 1rem;
+  width: 45%;
+}
+
+.follow .one {
+  text-align: end;
+}
+
+.follow .two {
+  text-align: start;
+}
+
+
+/* ================= footer ============= */
+footer {
+  height: 85vh;
+  background-color: #111b33;
+  color: #fff;
+  text-align: start;
+  padding: 1rem;
+  position: relative;
+}
+
+footer .col {
+  display: inline-block;
+}
+
+footer img {
+  width: 50%;
+  height: 93%;
+  display: inline-block;
+  padding-top: 3rem;
+  padding-left: 0
+}
+
+
+footer .right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+}
+
+footer .col .box {
+  display: inline-block;
+  margin: 1rem 0;
+  text-align: start;
+  padding: 0 1rem;
+  width: 40%;
+
+}
+
+footer .box-left {
+  position: absolute;
+  left: 2.5rem;
+}
+
+footer .box-right {
+  position: absolute;
+  right: 0;
+  top: 6.5rem;
+  text-align: start;
+}
+
+footer .box-right h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: start;
+  color: #ba8d72;
+}
+
+
+footer .col .box img {
+  width: 7rem;
+  margin: 20px 0px;
+}
+
+footer .right .box p,
+ul {
+  line-height: 1.5rem;
+}
+
+footer .right .box p,
+.phone,
+.social-media,
+.footer-logo {
+  margin: 2rem 0
+}
+
+footer .right .box-right ul li {
+  list-style: none;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  text-align: start;
+}
+
+footer .right .box-right ul li a {
+  color: #fff;
+  font-weight: 500;
+}
+
+footer .phone h3 a,
+footer .social-media a {
+  color: #ba8d72;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+footer .phone p a {
+  color: #ba8d72;
+  font-size: 1rem;
+}
+
+footer .right .box-left .social-media a {
+  display: inline-block;
+  margin: 2rem 0;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+footer .right .box-left .social-media a i {
+  background-color: #242f47;
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+
+footer .right .box-right ul li a:hover,
+footer .phone a:hover,
+
+footer .right .box-left img:hover {
+  text-decoration: underline;
+  color: #ba8d72;
+}
+
+footer .social-media a i:hover {
+  color: #f2e1d9;
+}
+
+small {
+  position: absolute;
+  bottom: 1rem;
+  /* left: 0; */
+  right: 10%;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  background-color: #111b33;
+
+}
